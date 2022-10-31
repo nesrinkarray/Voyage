@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    color: inherit;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 0;
+}
+@media (min-width: 768px){
+    .navbar {
+        height: 120px;
+    }
+    
+    .navbar .level-nav-link.nav-link {
+        padding: 50px 25px;
+    }
+}
+
+.navbar .level-nav-link.nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.navbar .level-nav-link.nav-link.active,
+.navbar .level-nav-link.nav-link:hover {
+    background-color: red;
+    color: white;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand h1 {margin: 0}
+.hero {
+ background: url(../img/bg-img-1.jpg) no-repeat center center /cover;
+ height: 515px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.search-form {
+ background-color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: var(--size-half);
+ padding: 25px 50px;
+}
+.form-group{
+ flex: 1 25%;
+ position: relative;
+ display: flex;
+ align-items: center;
+}
+.form-group i {
+ color: rgb(211, 43, 43);
+ font-size: 20px;
+ position: absolute;
+ left: 10px;
+}
+.form-group .form-control{
+ border-radius: 0;
+ padding: 13px ;
+ padding-left: 50px;
+}
+.btn{
+background-color: rgb(211, 43, 43);
+border: none;
+border-radius: 0;
+width: 100%;
+padding: 6.5px;
+text-transform: uppercase;
+font-weight: 700;
+}
+.need-help{
+   background-color: white;
+   font-size: .8rem;
+   padding: 0 50px 13; 
+}
+.need-help a{
+    color: rgb(211, 43, 43);
+    text-transform: uppercase;
+     font-weight: 500;
+}
+section{
+    padding: 50px 0;
+    position: relative;
+}
+.section-color{
+   background-color: rgb(211, 43, 43);
+   color: white; 
+}
+.title{
+font-size: 48px;
+}
+.subtitle{
+font-size: 20px;
+}
+.btn-white{
+    border: 2px solid white;
+    color: inherit;
+    padding: 12px 25px;
+
+}
+.btn-white:hover{
+    background-color: white;
+    color: rgb(211, 43, 43);
+}
+.polygon{
+position: absolute;
+top: 0;
+width: 100%;
+height: 120px;
+
+}
+.article{
+text-align: center;
+margin-top: 50px;
+padding: 25px;
+transition: all .2s ease-in;
+color: rgb(211, 43, 43);
+}
+.article:hover{
+    scale: 1.1;
+    box-shadow: 0 0 7px 0 rgb(211, 43, 43)
+}
+.article .article-icon{
+font-size: 4rem;
+margin-bottom: 25px;
+}
+.slider{
+    background-color: antiquewhite;
+
+}
+.voyage-slider{
+    background-color: white;
+
+}
+.voyage-slider img{
+    width: 100%;
+}
+.voyage-continer{
+    padding: 25px;
+}
+.voyage-continer h3{
+    font-size: 20px;
+    color: rgb(211, 43, 43);
+}
+.voyage-continer p{
+    font-size: 13px;
+    color: black;
+}
+.star-places{
+    background-color: white;
+}
+.star-places-header{
+    background-color: rgb(211, 43, 43);
+    color: white;
+    padding: 13px;
+}
+.star-places-header h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.star-places-header p{
+    font-size: 13px;
+    margin: 0;
+}
+.star-places-body{
+    padding: 25px;
+}
+.star-places-body a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    background-color:antiquewhite ;
+    margin-bottom: 25px;
+    color: tomato;
+    transition: all .2s ease-in;
+}
+.star-places-body a:hover{
+    color: brown;
+}
+.star-places-body h4{
+    font-size: 20px;
+    color: tomato;
+}
+
+.contact{
+    margin: 0 auto; 
+}
+.contact .form-group{
+    background-color: bisque;
+    border: none;
+    margin-bottom: 13px;
+}
+.contact .form-group{
+    top: 13px;
+}
+.map-container{
+
+    width: 100%;
+    height: 100%;
+    padding-bottom: 13px;
+}
+.footer{
+    background-color: antiquewhite;
+}
+.footer p{
+    padding: 25px 0;
+    color:rgb(211, 43, 43) ;
+    text-align: center;
+    margin-bottom: 0;
+}
